@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED09AC8E20B5877700B6487C /* SSBlurAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = ED09AC8C20B5877700B6487C /* SSBlurAlert.h */; };
+		ED09AC8F20B5877700B6487C /* SSBlurAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09AC8D20B5877700B6487C /* SSBlurAlert.m */; };
 		ED17D49820B574D500562DE6 /* SSBillStyleAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = ED17D49620B574D500562DE6 /* SSBillStyleAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED17D4A320B5822600562DE6 /* SSBlurAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED17D4A220B5822600562DE6 /* SSBlurAlert.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED09AC8C20B5877700B6487C /* SSBlurAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBlurAlert.h; sourceTree = "<group>"; };
+		ED09AC8D20B5877700B6487C /* SSBlurAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBlurAlert.m; sourceTree = "<group>"; };
 		ED17D49320B574D500562DE6 /* SSBillStyleAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSBillStyleAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED17D49620B574D500562DE6 /* SSBillStyleAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSBillStyleAlert.h; sourceTree = "<group>"; };
 		ED17D49720B574D500562DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED17D4A220B5822600562DE6 /* SSBlurAlert.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSBlurAlert.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +54,19 @@
 			children = (
 				ED17D49620B574D500562DE6 /* SSBillStyleAlert.h */,
 				ED17D49720B574D500562DE6 /* Info.plist */,
+				ED17D4A420B5823000562DE6 /* UI */,
 			);
 			path = SSBillStyleAlert;
+			sourceTree = "<group>";
+		};
+		ED17D4A420B5823000562DE6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				ED09AC8C20B5877700B6487C /* SSBlurAlert.h */,
+				ED09AC8D20B5877700B6487C /* SSBlurAlert.m */,
+				ED17D4A220B5822600562DE6 /* SSBlurAlert.xib */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,6 +77,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED17D49820B574D500562DE6 /* SSBillStyleAlert.h in Headers */,
+				ED09AC8E20B5877700B6487C /* SSBlurAlert.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED17D4A320B5822600562DE6 /* SSBlurAlert.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED09AC8F20B5877700B6487C /* SSBlurAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +289,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shinkarenkos.SSBillStyleAlert;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinkarenkos.SSBlurAlert;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,7 +313,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shinkarenkos.SSBillStyleAlert;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinkarenkos.SSBlurAlert;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
